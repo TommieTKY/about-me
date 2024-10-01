@@ -1,0 +1,53 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    /* 1st,2nd and lst */
+    font-size: 1.1em;
+    /* em=relative unit; 1em=16px*/
+    line-height: 1.25;
+    /* vertical spacing between lines */
+    padding: 1em;
+    margin: 0em;
+}
+
+p {
+    margin: 0.5em;
+}
+
+h1,h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    padding: 0.2em;
+    margin: 0.2em;
+}
+
+h1 {
+    color: orange;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 0;
+    border-bottom: 2px solid orange;
+    /* border: [width] [style] [color] */
+}
+
+h2 {
+    color: rgb(249, 135, 135);
+    border-bottom: 2px solid pink;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: pink;
+}
